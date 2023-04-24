@@ -1,0 +1,113 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+
+body{
+    background-color: #10c4a4;
+    color: black;
+}
+
+header{
+    background-color: black;
+    height: 30%;    
+}
+
+#headerdiv{
+    color: white;
+    text-align: center;
+    padding: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+
+}
+nav ul{
+    margin: 0;
+    padding-top: 15px;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+    padding: 50px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+nav{
+    background-color: black;
+    height: 5% ;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+
+nav a:hover {
+    color: #10c4a4;
+}
+
+#main {
+    width: 80%;
+    float: left;
+    height: 100%;
+}
+
+#side {
+    height: 100%;
+    float: right;
+    width: 20%;
+    
+}
+
+#profile-image{
+    height: 100px;
+    border-radius: 100%;
+}
+
+.main-articles {
+    background-color: lightgrey;
+    border: solid 1px lightgrey;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+
+}
+.contactme {
+    text-align: center;
+}
+
+#myinfo{
+    list-style-type: none;
+    margin: 12px;
+}
+
+
+form #about-you{
+    background-color: lightgrey;
+    border-radius: 5px;
+    width: 100%;
+}
+
+form #subbutton {
+    background-color: #10c4a4;
+    width: 100%;
+}
+
+form #questions, #name{
+    background-color: lightgrey;
+    border: 1px solid #10c4a4;
+    border-radius: 5px;
+}
+
+footer hr{
+    margin-top: 0px;
+    height: 12px;
+    border: 0px;
+    box-shadow: inset 0 12px 12px -12px white;
+}
